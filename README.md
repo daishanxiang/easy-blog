@@ -3,5 +3,17 @@
 #### 准备
 1. 在bmob.cn(免费)上注册账户，进入控制台后，点击左上方应用，创建应用，创建完成后点进去，点击左下角设置，就能看到应用密钥，待会需要用到。
 2. 在github上面新建一个项目，项目名称必须是:github用户名.github.io。(比如我的github用户名是daishanxiang,所以我创建的项目名称是：daishanxiang.github.io)
-3. git clone 
+3. 把所建的项目克隆下来
+
+#### 上传代码
+``` 
+git clone daishanxiang.githun.io
+cd easy
+cnpm install
+// 打开app.vue，将自己的Application ID和REST API Key填入
+cnpm run build
+//将打包后的文件上传到github.io中
+```
+
+
 
